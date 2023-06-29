@@ -19,13 +19,12 @@
 }
 .home-route-details-container {
   width: 100%;
-  max-width: 480px;
-  margin-left: 20px;
+  padding: 10px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
   .home-route-details-container {
     width: 100%;
-    max-width: 450px;
+    max-width: 480px;
   }
 }
 .home-route-heading {
